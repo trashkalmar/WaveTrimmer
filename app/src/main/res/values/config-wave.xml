@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="wave_handle_touch_distance">32dp</dimen>
+
+  <dimen name="wave_snap_step_distance">3dp</dimen>
+  <integer name="wave_snap_step_ms">5</integer>
+
+  <dimen name="wave_helper_dash_line">6dp</dimen>
+  <dimen name="wave_helper_dash_gap">10dp</dimen>
+</resources>

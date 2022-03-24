@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WaveTrimmer"
 include(":app")
+include(":core")

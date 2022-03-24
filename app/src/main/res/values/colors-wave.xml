@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="waveBody">#FF0286E7</color>
+  <color name="waveBackground">#FF181614</color>
+  <color name="waveHandle">#FF9A8B83</color>
+  <color name="waveHandleDragged">#FFFFFFFF</color>
+  <color name="waveDimBackground">#CC000000</color>
+  <color name="waveHelper">#FFF0F0F0</color>
+</resources>

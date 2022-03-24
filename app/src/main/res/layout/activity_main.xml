@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="48dp"
+    android:clipToPadding="false">
+  <TextView
+      android:id="@+id/waveName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="16dp"
+      android:gravity="center"
+      android:lines="1"
+      android:ellipsize="end"
+      tools:text="Wave file name"/>
+
+  <com.pocketimps.test.bandlab.wavetrimmer.ui.WaveView
+      android:id="@+id/waveView"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/wave_height"
+      android:paddingVertical="16dp"
+      android:background="@color/waveBackground"/>
+
+  <Space
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_weight="1"/>
+
+  <Button
+      android:id="@+id/openWave"
+      android:layout_width="@dimen/button_width"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="@string/open_wave"/>
+
+  <Button
+      android:id="@+id/exportSelected"
+      android:layout_width="@dimen/button_width"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="@string/export_selected"/>
+
+  <Button
+      android:id="@+id/resetSelection"
+      android:layout_width="@dimen/button_width"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="@string/reset_selection"/>
+</LinearLayout>
